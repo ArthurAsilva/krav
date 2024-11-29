@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukan School of Krav Maga - Ribeirão Pires</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url(imagens/images.jpg);
+        }
+        header {
+            background-image: url(imagens/images\ \(1\).jpg);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        nav {
+            background-image: url(imagens/depositphotos_87969940-stock-photo-rustic-faded-wooden-texture.jpg);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .carousel {
+            width: 100%;
+            max-width: 1000px;
+            margin: 2rem auto;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .carousel img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .carousel-content {
+            display: flex;
+            animation: slide 24s infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+        section {
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        section p, section ul {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.8;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        footer {
+            background-image: url(imagens/depositphotos_87969940-stock-photo-rustic-faded-wooden-texture.jpg);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            nav a {
+                margin: 0 1rem;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+        @media (max-width: 480px) {
+            section {
+                padding: 2rem 1rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bukan School of Krav Maga</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#local">Local</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+1" alt="Imagem 1">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+2" alt="Imagem 2">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+3" alt="Imagem 3">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+4" alt="Imagem 4">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+5" alt="Imagem 5">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+6" alt="Imagem 6">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+7" alt="Imagem 7">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+8" alt="Imagem 8">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+9" alt="Imagem 9">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+10" alt="Imagem 10">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+11" alt="Imagem 11">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+12" alt="Imagem 12">
+        </div>
+    </div>
+    <section id="sobre">
+        <h2>Sobre o Krav Maga</h2>
+        <p>O Krav Maga Bukan é uma das mais renomadas artes de defesa pessoal, criada para oferecer métodos simples e eficazes
+        para proteção em situações reais. Com foco na segurança pessoal, é acessível a todas as idades, gêneros e níveis de preparo físico.</p>
+        <p>Mais do que uma técnica, o Krav Maga é um estilo de vida que promove autoconfiança, saúde física e fortalecimento mental.</p>
+        <img src="https://via.placeholder.com/800x400?text=Treinamento" alt="Treinamento de Krav Maga">
+        <h2>Sobre Imi Lichtenfeld </h2>
+        <p>Imi Lichtenfeld foi um lutador, instrutor de artes marciais e o criador do **Krav Maga**, um sistema de autodefesa baseado em princípios de defesa pessoal e combate corpo a corpo. Nascido em **1910**, em **Budapeste**, na Hungria, Lichtenfeld teve uma trajetória fascinante, marcada por sua experiência como atleta e seu envolvimento em contextos militares e de segurança.
+
+            Aqui estão os pontos principais sobre sua vida e legado:
+            
+                 Início da Vida e Formação:
+            -  Nascimento e Infância: Imi Lichtenfeld nasceu em Budapeste, mas foi criado em Bratislava, na Eslováquia. Seu pai era instrutor de Judo e   Wrestling , e isso influenciou desde cedo o interesse de Imi pelas artes marciais.
+            -  Atletas e Competição:  Lichtenfeld se destacou como atleta de luta livre , além de ser também um excelente  boxeador e gimnasta. Ele participou de várias competições esportivas durante sua juventude e, no início da década de 1930, tornou-se uma figura importante no cenário esportivo europeu.
+            
+               Desenvolvimento do Krav Maga:
+            - Situação Política e Militar: Durante os anos 1930, o contexto político na Europa, particularmente em relação ao crescente antissemitismo e à ameaça do regime nazista, levou Lichtenfeld a se envolver em confrontos com grupos de extrema-direita e antissemitas. Ele começou a aprimorar suas habilidades de defesa pessoal em situações reais de combate.
+            - Início do Krav Maga: A necessidade de criar um sistema de defesa pessoal simples, direto e eficaz, que fosse adequado para pessoas comuns em situações de risco, levou Imi a desenvolver o Krav Maga. O Krav Maga combina técnicas de várias artes marciais, como boxe, luta livre, judo, e outras, com um foco específico em autodefesa e neutralização rápida de ameaças.
+            - **Krav Maga para o Exército: Em 1948, com a criação do Estado de Israel, Lichtenfeld foi convocado para servir nas Forças de Defesa de Israel (IDF). Durante esse período, ele foi encarregado de ensinar seus métodos de autodefesa ao exército israelense. Ele adaptou o Krav Maga para as necessidades militares, levando em consideração a simplicidade, a eficácia e a rapidez de execução.
+            
+                Características do Krav Maga:
+            - O Krav Maga enfatiza  defesas rápidas e eficazes contra ataques como socos, chutes, facadas, armas de fogo e até agressões com múltiplos atacantes.
+            - O sistema é notável pela sua eficiência e pragmatismo , focando em soluções rápidas para incapacitar um agressor ou fugir de uma situação perigosa.
+            - Ao contrário de outras artes marciais, o Krav Maga não é baseado em competições ou esportes, mas sim em  autodefesa realista. O treinamento inclui defesa contra ataques surpresa, situações de estresse, e o uso de qualquer recurso disponível para se defender.
+            
+                Legado e Impacto:
+            - Após sua carreira militar, Imi Lichtenfeld continuou a ensinar Krav Maga em Israel e em outros países, espalhando seu sistema para pessoas de diferentes origens, incluindo civis e policiais.
+            - Em Israel, o Krav Maga se tornou o principal método de treinamento das Forças de Defesa de Israel , e se espalhou por todo o mundo, especialmente em países como os Estados Unidos, onde muitas agências de segurança e civis adotaram o sistema.
+            - Lichtenfeld morreu em 1998, mas seu legado perdura até hoje, com o Krav Maga sendo praticado por milhões de pessoas ao redor do mundo.
+            
+                Principais Contribuições:
+            - Krav Maga se tornou um dos sistemas de autodefesa mais populares do mundo, amplamente utilizado por forças militares e policiais, além de ser ensinado em academias para o público em geral.
+            - A filosofia do Krav Maga, que busca neutralizar rapidamente a ameaça, ainda hoje é vista como uma abordagem inovadora em defesa pessoal.
+            
+            Em resumo, Imi Lichtenfeld foi um visionário no campo das artes marciais, cuja experiência e percepção da necessidade de um sistema simples, direto e eficiente de autodefesa resultaram na criação do Krav Maga , que continua a impactar e salvar vidas ao redor do mundo.</p>
+        <img src="https://via.placeholder.com/800x400?text=Treinamento" alt="Treinamento de Krav Maga">
+        <h2>Sobre Yaron (Grão mestre)</h2>
+        <p>Yaron Lichtenfeld é filho de Imi Lichtenfeld, o criador do Krav Maga, e ele também desempenhou um papel importante no desenvolvimento e na disseminação desse sistema de autodefesa. Embora não tenha a mesma notoriedade do pai, Yaron é uma figura central na preservação e evolução do Krav Maga após a morte de Imi.
+
+Aqui está um resumo sobre Yaron Lichtenfeld:
+
+    Início da Vida e Formação:
+- Yaron nasceu em Israel, como filho de Imi Lichtenfeld e cresceu imerso no ambiente do Krav Maga, aprendendo diretamente com seu pai desde jovem. Ele foi exposto a técnicas de defesa pessoal e combate desde a infância e treinou intensivamente no sistema criado por seu pai.
+- Ao longo de sua juventude, Yaron foi treinado em diversas áreas, incluindo o Krav Maga, o que o preparou para se tornar um dos principais instrutores do sistema.
+
+    Carreira no Krav Maga:
+- Yaron Lichtenfeld seguiu os passos de seu pai e se tornou instrutor de Krav Maga de alto nível, dedicando sua vida a ensinar e preservar os princípios do sistema de autodefesa.
+- Instrutor de Altíssimo Nível: Ele obteve a graduação de instrutor de Krav Maga e foi um dos principais responsáveis por continuar o trabalho de seu pai em Israel e no mundo todo. Ele ajudou a expandir a presença do Krav Maga além das Forças de Defesa de Israel (IDF), levando-o a civis, forças de segurança e outras organizações ao redor do mundo.
+  
+    Preservação e Evolução do Krav Maga:
+- Após a morte de Imi, Yaron Lichtenfeld continuou a preservar os princípios e as técnicas originais do Krav Maga, mas também contribuiu para sua evolução, ajustando o sistema para se adequar às mudanças nos desafios da segurança moderna.
+- Ele trabalhou para manter a **autenticidade** do Krav Maga enquanto se adaptava às novas necessidades e tecnologias de defesa pessoal, além de garantir que o sistema fosse acessível a todos, independentemente da idade ou condição física.
+  
+    Legado e Contribuições:
+- Yaron foi uma figura chave na criação de várias organizações de Krav Maga ao redor do mundo, e muitos instrutores se formaram sob sua orientação. Ele também foi responsável por vários seminários e programas de treinamento, ajudando a espalhar o Krav Maga globalmente.
+- Ele é um dos principais representantes do legado de seu pai, Imi Lichtenfeld, e seu trabalho ajudou a solidificar o Krav Maga como um dos sistemas de defesa pessoal mais respeitados e utilizados em diversos países.
+- Livro e Métodos de Treinamento: Yaron também contribuiu com a criação de materiais de treinamento, seminários e livros, além de ser um defensor do ensino responsável e ético do Krav Maga.
+
+  Conclusão:
+Yaron Lichtenfeld desempenhou um papel fundamental na preservação e na disseminação do Krav Maga, garantindo que o sistema desenvolvido por seu pai continuasse a ser relevante no mundo moderno. Seu trabalho ajudou a expandir a prática do Krav Maga globalmente, tanto no contexto de defesa pessoal quanto em treinamentos profissionais para forças militares e policiais.</p>
+        <p>Mais do que uma técnica, o Krav Maga é um estilo de vida que promove autoconfiança, saúde física e fortalecimento mental.</p>
+        <img src="https://via.placeholder.com/800x400?text=Treinamento" alt="Treinamento de Krav Maga">
+    </section>
+    <section id="beneficios">
+        <h2>Benefícios do Krav Maga</h2>
+        <ul>
+            <li>Aprimoramento da autodefesa</li>
+            <li>Melhora da condição física</li>
+            <li>Redução do estresse</li>
+            <li>Maior autoconfiança</li>
+            <li>Técnicas práticas para situações reais</li>
+        </ul>
+        <img src="https://via.placeholder.com/800x400?text=Aulas+em+Grupo" alt="Aulas em Grupo">
+    </section>
+    <section id="local">
+        <h2>Local</h2>
+        <p>Nosso espaço é equipado com as melhores instalações para garantir a qualidade do seu treinamento. Localizado no centro de Ribeirão Pires, é de fácil acesso para quem busca uma experiência de treinamento de alta qualidade.</p>
+        <img src="https://via.placeholder.com/800x400?text=Unidade+CrossFit" alt="Unidade CrossFit">
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato para mais informações ou para agendar uma aula experimental:</p>
+        <p>Email: <a href="mailto:contato@bukan.com">contato@bukan.com</a></p>
+        <p>Telefone: (11) 1234-5678</p>
+        <img src="https://via.placeholder.com/800x400?text=Fale+Conosco" alt="Fale Conosco">
+    </section>
+    <footer>
+        <p>&copy;- 2024 Bukan School of Krav Maga -</p>
+    </footer>
+</body>
+</html>
