@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukan School of Krav Maga - Ribeirão Pires</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url(imagens/images.jpg);
+        }
+        header {
+            background-image: url(imagens/images\ \(1\).jpg);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        nav {
+            background-image: url(imagens/depositphotos_87969940-stock-photo-rustic-faded-wooden-texture.jpg);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .carousel {
+            width: 100%;
+            max-width: 1000px;
+            margin: 2rem auto;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .carousel img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .carousel-content {
+            display: flex;
+            animation: slide 24s infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+        section {
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        section p, section ul {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.8;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        footer {
+            background-image: url(imagens/depositphotos_87969940-stock-photo-rustic-faded-wooden-texture.jpg);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            nav a {
+                margin: 0 1rem;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+        @media (max-width: 480px) {
+            section {
+                padding: 2rem 1rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bukan School of Krav Maga</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#local">Local</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+1" alt="Imagem 1">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+2" alt="Imagem 2">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+3" alt="Imagem 3">
+            <img src="https://via.placeholder.com/1000x500?text=Imagem+4" alt="Imagem 4">
+        </div>
+    </div>
+    <section id="sobre">
+        <h2>Sobre o Krav Maga</h2>
+        <p>O Krav Maga Bukan é uma das mais renomadas artes de defesa pessoal, criada para oferecer métodos simples e eficazes
+        para proteção em situações reais. Com foco na segurança pessoal, é acessível a todas as idades, gêneros e níveis de preparo físico.</p>
+        <p>Mais do que uma técnica, o Krav Maga é um estilo de vida que promove autoconfiança, saúde física e fortalecimento mental.</p>
+        <img src="https://via.placeholder.com/800x400?text=Treinamento" alt="Treinamento de Krav Maga">
+    </section>
+    <section id="beneficios">
+        <h2>Benefícios do Krav Maga</h2>
+        <ul>
+            <li>Aprimoramento da autodefesa</li>
+            <li>Melhora da condição física</li>
+            <li>Redução do estresse</li>
+            <li>Maior autoconfiança</li>
+            <li>Técnicas práticas para situações reais</li>
+        </ul>
+        <img src="https://via.placeholder.com/800x400?text=Aulas+em+Grupo" alt="Aulas em Grupo">
+    </section>
+    <section id="local">
+        <h2>Local</h2>
+        <p>Nosso espaço é equipado com as melhores instalações para garantir a qualidade do seu treinamento. Localizado no centro de Ribeirão Pires, é de fácil acesso para quem busca uma experiência de treinamento de alta qualidade.</p>
+        <img src="https://via.placeholder.com/800x400?text=Unidade+CrossFit" alt="Unidade CrossFit">
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato para mais informações ou para agendar uma aula experimental:</p>
+        <p>Email: <a href="mailto:contato@bukan.com">contato@bukan.com</a></p>
+        <p>Telefone: (11) 1234-5678</p>
+        <img src="https://via.placeholder.com/800x400?text=Fale+Conosco" alt="Fale Conosco">
+    </section>
+    <footer>
+        <p>&copy; 2024 Bukan School of Krav Maga - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
